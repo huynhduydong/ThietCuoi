@@ -82,7 +82,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#home">K <i class="fi flaticon-spring"></i> T</a>
+                        <a class="navbar-brand" href="#home">Khanh <i class="fi flaticon-spring"></i> Trinh</a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                         <button class="close-navbar"><i class="ti-close"></i></button>
@@ -204,7 +204,7 @@
                                 <h3>Những cái nắm tay yêu thương</h3>
                                 <h4>...</h4>
                                 <div class="story-grids-img">
-                                    <img src="ascess/namtay.jpg" alt="">
+                                    <img src="ascess/namtay2.jpg" alt="">
                                 </div>
                                 <p> Anh và em đã cùng nhau nắm tay đi qua nhiều cảm xúc. Mỗi cảm xúc là một kỷ niệm, là một câu chuyện tình yêu đầy màu sắc. <br />  Hôm nay, dưới ánh nến lung linh và sự chứng giám của bạn bè, người thân, chúng ta lại nắm tay nhau bước vào hành trình mới - hành trình của hôn nhân, với tình yêu và sự sẻ chia mãi mãi.
                                 </p>
@@ -237,7 +237,7 @@
                                 <h3>Chúng ta cùng nhau trưởng thành, cùng nhau cố gắng</h3>
                                 <h4>...</h4>
                                 <div class="story-grids-img">
-                                    <img src="ascess/dichoi4.jpg" alt="">
+                                    <img src="ascess/cungnhau.jpg" alt="">
                                 </div>
                                 <p>Từ những ngày đầu gặp gỡ, chúng ta đã cùng nhau trải qua bao thăng trầm và thử thách. Cũng không ít lần chúng ta cãi nhau nhưng rồi lại cùng nắm tay vượt qua, chúng ta đã trưởng thành và cùng nhau cố gắng không ngừng. Những kỷ niệm và những khoảnh khắc quý giá bên nhau đã tạo nên một tình yêu bền chặt
                                 </p>
@@ -324,7 +324,7 @@
 		                                    <ul>
 		                                        <li>
                                                     <i class="ti-location-pin"></i>
-                                                                                                            <span>Như Minh Plaza DaNang Hotel-</span>
+                                                                                                            <span>Như Minh Plaza DaNang-</span>
                                                                                                             41 Phạm Văn Đồng, Sơn Trà, Đà Nẵng
                                                 </li>
 		                                        <li><i class="ti-time"></i>11:00 05/01/2025</li>
@@ -585,29 +585,30 @@
                     </ul>
     </div>
     
-    <script type="text/javascript">
-        function sanitizeJsonString(jsonString) {
-            return jsonString
-                .replace(/[\n\r\t]/g, '')
-                .replace(/,(\s*[}\]])/g, '$1');
-        }
-        function parseJsonRecursively(jsonString) {
-            let sanitizedString = sanitizeJsonString(jsonString);
-            let parsed = JSON.parse(sanitizedString);
-            Object.keys(parsed).forEach(function(key) {
-                try {
-                	let checkValue = JSON.parse(parsed[key]);
-                	if (checkValue && checkValue.constructor === Object) {
-		                parsed[key] = checkValue;
-		            }
-                } catch (e) {
-
+  <script type="text/javascript">
+    function sanitizeJsonString(jsonString) {
+        return jsonString
+            .replace(/[\n\r\t]/g, '')
+            .replace(/,(\s*[}\]])/g, '$1');
+    }
+    function parseJsonRecursively(jsonString) {
+        let sanitizedString = sanitizeJsonString(jsonString);
+        let parsed = JSON.parse(sanitizedString);
+        Object.keys(parsed).forEach(function(key) {
+            try {
+                let checkValue = JSON.parse(parsed[key]);
+                if (checkValue && checkValue.constructor === Object) {
+                    parsed[key] = checkValue;
                 }
-            });
-            return parsed;
-        }
-    	let biicore = parseJsonRecursively('{"template_id":"6174ee15b129456cb25a0566","templatePremium":false,"themeRoot":"https:\/\/kieu-hoa.iwedding.info\/templates\/template4","webroot":"https:\/\/kieu-hoa.iwedding.info","coreSite":"https:\/\/biihappy.com","webToken":"67697761ab48c8d8d004de1a","isPremium":false,"bgMusic":"https:\/\/cdn.biihappy.com\/ziiweb\/wedding-musics\/BeautifulInWhite-ShaneFilan-524801.mp3","alert":"[]","effect":"{\\\"type\\\":\\\"heart\\\"}","logo":"https:\/\/iwedding.info\/common\/imgs\/bii.png?v=20210131","url_landing_page":"https:\/\/biihappy.com\/iwedding","isAutoPlay":true,"footer_title":"iWedding | N\u1ec1n t\u1ea3ng t\u1ea1o website \u0111\u00e1m c\u01b0\u1edbi mi\u1ec5n ph\u00ed t\u1eeb Biihappy","footer_title_mobile":"T\u1ea1o website \u0111\u00e1m c\u01b0\u1edbi mi\u1ec5n ph\u00ed"}');
-    </script>
+            } catch (e) {
+
+            }
+        });
+        return parsed;
+    }
+    let biicore = parseJsonRecursively('{"template_id":"6174ee15b129456cb25a0566","templatePremium":false,"themeRoot":"https:\/\/kieu-hoa.iwedding.info\/templates\/template4","webroot":"https:\/\/kieu-hoa.iwedding.info","coreSite":"https:\/\/biihappy.com","webToken":"67697761ab48c8d8d004de1a","isPremium":false,"bgMusic":"https:\/\/res.cloudinary.com/dxodnq83l\/video\/upload\/v1735612999\/bz29nuabnlybv6iq7yd4.mp4","alert":"[]","effect":"{\\\"type\\\":\\\"heart\\\"}","logo":"https:\/\/iwedding.info\/common\/imgs\/bii.png?v=20210131","url_landing_page":"https:\/\/biihappy.com\/iwedding","isAutoPlay":true,"footer_title":"Mai Khanh & Thảo Trinh","footer_title_mobile":"Mai Khanh & Thảo Trinh"}');
+</script>
+
     <script src="https://kieu-hoa.iwedding.info/templates/template4/js/jquery-plugin-collection.js?v=20241222"></script>
     <script src="https://kieu-hoa.iwedding.info/templates/template4/js/script.js?v=20241222"></script>
     <script src="https://kieu-hoa.iwedding.info/common/calendar.js?v=20241222"></script>
